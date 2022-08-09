@@ -6,7 +6,7 @@
     scroll-behavior: smooth; 
 }
 .hastane{
-    width: 5%;
+    width:2%;
    
 }
 
@@ -96,9 +96,10 @@ animation: site-anim 3s ease;
 .main h2 span {
     display: inline-block;
     margin-top: 10px;
-    color: #4e9eff;
+    color: #323fd5;
     font-size: 4em;
     font-weight: 400;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .main h3 {

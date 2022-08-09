@@ -6,7 +6,7 @@
     scroll-behavior: smooth; 
 }
 .hastane{
-    width: 5%;
+    width: 4%;
    
 }
 .lang-menu {
@@ -27,7 +27,7 @@
     display: inline-block;
     width: 32px;
     height: 32px;
-    background-image: url(Britain-256.webp);
+    background-image: url(global\ map.webp);
     background-size: contain;
     background-repeat: no-repeat;
     margin-bottom: 10px;
@@ -76,11 +76,23 @@
     background-size: contain;
     background-repeat: no-repeat;
 }
+.en{
+    color: #c41717;
+    font-weight: 180;
+    
+}
+.ar{
+    color: #c41717;
+    font-size: 12px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight:500;
+
+}
 
 
 
 .en:before {
-    background-image: url(england-3-512.webp);
+    background-image: url();
    
 }
 .nebakıyondayı{
@@ -92,7 +104,7 @@
 
 
 .ar:before {
-    background-image: url(SA-Saudi-Arabia-karayolu-tasimaciligi.png);
+    background-image: url();
 }
 
 
@@ -103,7 +115,7 @@
 
 
 header {
-    background-color: #f0f0f0;
+    background-color: #ffffff;
     width: 100%;
     position: fixed;
     z-index: 999;
@@ -115,12 +127,12 @@ header {
 
 .logo{
     text-decoration: none;
-    color: #2956cf;
+    color: #c41717;
     text-transform: uppercase;
-    font-weight: 500;
+    font-weight: 0.5em;
     font-size: 1.4em;
     margin-right:35em;
-    margin-top: 25px;
+    margin-top:40px;
     
     
     
@@ -128,7 +140,7 @@ header {
 .altlogo{
  text-decoration: none;
  color: rgb(129, 128, 136);
- font-weight: 100;
+ font-weight:200;
  font-size: 0.6em;
  margin-left: 80px;
 }
@@ -140,12 +152,13 @@ header {
 
 
 .navigation a{
-    color: #1f03af;
+    color: #c41717;
     text-decoration: none;
     font-size: 1.1em;
     font-weight:500;
     padding-left: 30px;
-    font-family:sans-serif;
+    
+   
 }
 
 .navigation a:hover{
@@ -170,8 +183,9 @@ section {
 }
 .site{
 letter-spacing: 8px;
-margin-bottom: 10px;
+margin-bottom: 90px;
 animation: site-anim 3s ease;
+
 
 
 
@@ -186,9 +200,10 @@ animation: site-anim 3s ease;
 .main h2 span {
     display: inline-block;
     margin-top: 10px;
-    color: #4e9eff;
+    color: #ba1e1e;
     font-size: 4em;
     font-weight: 400;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 .main h3 {
@@ -220,9 +235,10 @@ animation: site-anim 3s ease;
 }
 
 .social-icons a {
-    color: #fff;
+    color: rgb(204, 204, 210);
     font-size: 1.7em;
     padding-right: 30px;
+    
     
 }
 .beyin{
@@ -431,7 +447,7 @@ animation: site-anim 3s ease;
 }
 @keyframes site-anim{
     0%{
-        margin-bottom: -40px;
+        margin-bottom: -60px;
         letter-spacing: 8px;
     }
     30%{
